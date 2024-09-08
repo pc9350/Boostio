@@ -66,8 +66,9 @@ export default function Waitlist() {
 
         {submitted && (
           <div className="mt-6 text-lg">
+            {/* eslint-disable-next-line react/no-unescaped-entities */}
             <p>
-              Thank you for joining our waitlist! 🎉 We'll keep you updated on
+              Thank you for joining our waitlist! 🎉 We&#39;ll keep you updated on
               our launch.
             </p>
           </div>
